@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localisation de notre food truck
+    </title>
+    <link rel="stylesheet" href="./assets/css/loca-style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="./assets/js/loca-app.js" defer></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>  <!--link bibliothèque Leaflet-->
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="localisation.html" class="active">Localisation</a></li>
+            <li><a href="privatisation.html">Privatisation</a></li>
+        </ul>
+    </nav>
+ 
+    </header>
+ 
+ 
+<div class="container">
+        <h2>Rien de plus simple, retrouvez les ici !</h2>
+    <p>Envie de savourer nos spécialités fraîchement préparées ?
+Notre foodtruck se déplace chaque semaine dans plusieurs villes pour être toujours au plus près de vous !
+ 
+Découvrez ci-dessous nos emplacements du moment et les horaires associés.
+Que vous soyez pressé le midi ou à la recherche d’un bon repas le soir, nous avons forcément un arrêt près de chez vous.</p>
+        <form class="form-row">
+ 
+            <select id="moment">
+                <option value="midi">Midi</option>
+                <option value="soir">Soir</option>
+ 
+            </select>
+            <div class="controls">
+            <select id="jour">
+                <option value="lundi">Lundi</option>
+                <option value="mardi">Mardi</option>
+                <option value="mercredi">Mercredi</option>
+                <option value="jeudi">Jeudi</option>
+                <option value="vendredi">Vendredi</option>
+                <option value="samedi">Samedi</option>
+                <option value="dimanche">Dimanche</option>
+            </select>
+            </div>
+            <hr>
+                    
+        
+        
+        </form>
+
+    </div>
+
+    
+
+        <div id="map"></div> <!-- coneteneur de la map-->
+
+
+    </div>
+
+    <div id="info" class="info-food">
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>📞 06 12 34 56 78</p>
+                <p>✉️ contact@streetfusion.fr</p>
+            </div>
+            <div class="footer-section">
+                <h3>Suivez-nous</h3>
+                <p>
+                    <a href="https://instagram.com/streetfusion" target="_blank">Instagram</a> |
+                    <a href="https://facebook.com/streetfusion" target="_blank">Facebook</a>
+                </p>
+            </div>
+            <div class="footer-section">
+                <p>© 2025 Street Fusion. Tous droits réservés.</p>
+                <p>Site réalisé par Léonin, Adam, Bastien</p>
+            </div>
+        </div>
+    </footer>
+</select>
+</html>

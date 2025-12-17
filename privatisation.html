@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privatisation - Street Fusion</title>
+    <link rel="stylesheet" href="./assets/css/style-p.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="localisation.html">Localisation</a></li>
+            <li><a href="privatisation.html" class="active">Privatisation</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Privatisation -->
+    <section class="privatisation">
+        <div class="privatisation-content">
+            <h1>Privatisez Street Fusion</h1>
+            <p>Pour vos événements privés, professionnels ou familiaux, offrez une expérience culinaire unique avec notre cuisine de rue.</p>
+        </div>
+    </section>
+
+    <!-- Section Formules -->
+    <section class="formules">
+        <h2>Nos Formules</h2>
+        <div class="formules-grid">
+            <div class="formule-card">
+                <h3>Intervention sur site</h3>
+                <p>Nous nous déplaçons avec notre food truck pour animer votre événement.</p>
+                <ul>
+                    <li>Nombre minimum de personnes : 50</li>
+                    <li>Menu personnalisable</li>
+                    <li>Service complet (cuisine, service, nettoyage)</li>
+                </ul>
+            </div>
+            <div class="formule-card">
+                <h3>Menu sur mesure</h3>
+                <p>Créez un menu adapté à vos invités et à votre thème.</p>
+                <ul>
+                    <li>Choix des plats et des boissons</li>
+                    <li>Options végétariennes, vegan, sans gluten</li>
+                    <li>Dégustation possible en amont</li>
+                </ul>
+            </div>
+            <div class="formule-card">
+                <h3>Animation culinaire</h3>
+                <p>Ajoutez une touche interactive avec des ateliers ou démonstrations.</p>
+                <ul>
+                    <li>Atelier cuisine pour les invités</li>
+                    <li>Démonstration de préparation</li>
+                    <li>Animation par nos chefs</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Tarifs -->
+    <section class="tarifs">
+        <h2>Tarifs</h2>
+        <div class="tarifs-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Formule</th>
+                        <th>Prix par personne</th>
+                        <th>Inclus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Intervention sur site</td>
+                        <td>À partir de 25€</td>
+                        <td>Menu standard, service, nettoyage</td>
+                    </tr>
+                    <tr>
+                        <td>Menu sur mesure</td>
+                        <td>À partir de 35€</td>
+                        <td>Menu personnalisé, dégustation</td>
+                    </tr>
+                    <tr>
+                        <td>Animation culinaire</td>
+                        <td>À partir de 50€</td>
+                        <td>Atelier ou démonstration</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="contact">
+        <h2>Demande de privatisation</h2>
+        <form class="contact-form">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="type">Type d'événement</label>
+            <select id="type" name="type" required>
+                <option value="">Sélectionnez...</option>
+                <option value="mariage">Mariage</option>
+                <option value="entreprise">Événement d'entreprise</option>
+                <option value="anniversaire">Anniversaire</option>
+                <option value="autre">Autre</option>
+            </select>
+
+            <label for="date">Date souhaitée</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="invites">Nombre d'invités</label>
+            <input type="number" id="invites" name="invites" min="50" required>
+
+            <label for="attentes">Attentes particulières</label>
+            <textarea id="attentes" name="attentes" placeholder="Précisez vos attentes, allergies, thèmes, etc."></textarea>
+
+            <button type="submit">Envoyer la demande</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>📞 06 12 34 56 78</p>
+                <p>✉️ contact@streetfusion.fr</p>
+            </div>
+            <div class="footer-section">
+                <h3>Suivez-nous</h3>
+                <p>
+                    <a href="https://instagram.com/streetfusion" target="_blank">Instagram</a> |
+                    <a href="https://facebook.com/streetfusion" target="_blank">Facebook</a>
+                </p>
+            </div>
+            <div class="footer-section">
+                <p>© 2025 Street Fusion. Tous droits réservés.</p>
+                <p>Site réalisé par Léonin, Adam, Bastien</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
