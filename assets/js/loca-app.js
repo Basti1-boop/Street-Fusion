@@ -67,7 +67,7 @@ const positions = {
         nom: 'Street-Fusion',
         adresse: ' Parc André-Gagnon',
         horaire: ' 11h30-14h30 Lundi',
-        image: './assets/img/parc.jpg',
+        image: './assets/img/Parc.jpg',
     },
         "soir": { lat: 48.4450, lng: 1.4905,  // Parking de la Gare de Chartres
         nom: 'Street-Fusion',
