@@ -1,6 +1,5 @@
 //Initialisation de la map
 //L est un objet globale fourni par leaflet
- 
 const map = L.map('map').setView([48.446, 1.489], 13); // Ici on va chercher la div map
  
 // Ajout des tuiles OpenStreetMap
@@ -24,13 +23,13 @@ const positions = {
         "midi": { lat: 48.4475, lng: 1.4878 , //  centre-ville
         nom: 'Street-Fusion',
         adresse: ' Cloitre notre-dame',
-        horaire: ' 11h30-14h30 Lundi',
+        horaire: ' 11h30-14h30 ',
         image: './assets/img/cloitre.jpg',
         },
         "soir": { lat: 48.4556, lng: 1.4789 ,  //  Lucé
         nom: 'Street-Fusion',
         adresse: ' 8 rue du clos lucé',
-        horaire: ' 18h30-20h30 Lundi',
+        horaire: ' 18h30-20h30 ',
         image: './assets/img/lucé.jpg',
         },
     },
@@ -38,13 +37,13 @@ const positions = {
         "midi": { lat: 48.4500, lng: 1.4900 ,//  Place des Épars
         nom: 'Street-Fusion',
         adresse: ' Place des épars',
-        horaire: ' 11h30-14h30 Lundi',
+        horaire: ' 11h30-14h30',
         image: './assets/img/epar.jpg',
         },
         "soir": { lat: 48.4520, lng: 1.4850 , //  Rue Saint-Chéron
         nom: 'Street-Fusion',
         adresse: ' Rue Saint-Chéron',
-        horaire: ' 18h30-20h30 Lundi',
+        horaire: ' 18h30-20h30 ',
         image: './assets/img/st.jpg',
         },
         },
@@ -52,13 +51,13 @@ const positions = {
         "midi": { lat: 48.4450, lng: 1.4800, // Marché de Mainvilliers
         nom: 'Street-Fusion',
         adresse: ' Marché de mainvillier',
-        horaire: ' 11h30-14h30 Lundi',
+        horaire: ' 11h30-14h30 ',
         image: './assets/img/main.webp',
         },
         "soir": { lat: 48.4480, lng: 1.4750 ,  // Parking de la gare
         nom: 'Street-Fusion',
         adresse: ' Parking de la gare',
-        horaire: ' 18h30-20h30 Lundi',
+        horaire: ' 18h30-20h30 ',
         image: './assets/img/gare.jpg',
         }
     },
@@ -66,13 +65,13 @@ const positions = {
         "midi": { lat: 48.4523, lng: 1.4801, // Parc André-Gagnon
         nom: 'Street-Fusion',
         adresse: ' Parc André-Gagnon',
-        horaire: ' 11h30-14h30 Lundi',
+        horaire: ' 11h30-14h30 ',
         image: './assets/img/Parc.jpg',
     },
         "soir": { lat: 48.4450, lng: 1.4905,  // Parking de la Gare de Chartres
         nom: 'Street-Fusion',
         adresse: ' Parking de la gare',
-        horaire: ' 18h30-20h30 Lundi',
+        horaire: ' 18h30-20h30 ',
         image: './assets/img/gare.jpg',
         }
     },
@@ -80,13 +79,13 @@ const positions = {
         "midi": { lat: 48.4389, lng: 1.4832 , // Zone Artisanale de Morancez
         nom: 'Street-Fusion',
         adresse: ' Zone Artisanale de Morancez',
-        horaire: ' 11h30-14h30 Lundi',
+        horaire: ' 11h30-14h30 ',
         image: './assets/img/morancez.jpg',
         },
         "soir": { lat: 48.4567, lng: 1.4754, // Quartier de la Madeleine
         nom: 'Street-Fusion',
         adresse: ' La madelaine',
-        horaire: ' 18h30-20h30 Lundi',
+        horaire: ' 18h30-20h30 ',
         image: './assets/img/madeleine.jpg',
         },
     },
@@ -94,7 +93,7 @@ const positions = {
         "midi": { lat: 48.4489, lng: 1.4890 ,// Place Billard
         nom: 'Street-Fusion',
         adresse: ' Place Billard',
-        horaire: ' 11h30-14h30 Lundi',
+        horaire: ' 11h30-14h30 ',
         image: './assets/img/place.jpg',
         },
  
