@@ -411,3 +411,42 @@ body {
     /*effet de zoom doux*/
     transform: scale(1.05);
 }
+// Css #burger-toggle {
+    display: none;
+}
+ 
+/* Cache le burger en desktop */
+.burger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+ 
+ 
+@media (max-width: 768px) {
+ 
+    .burger {
+        display: block;
+        background-color: #FFF9F5;
+    }
+ 
+    .navbar {
+        display: none;
+        width: 100%; ;
+    }
+ 
+    .navbar ul {
+        flex-direction: column;
+        background-color: var(--secondary-color);
+        padding: 20px;
+    }
+ 
+    .navbar li {
+        margin-bottom: 15px;
+    }
+ 
+    /* Quand on clique sur le burger */
+    #burger-toggle:checked + .burger + .navbar {
+        display: block;
+    }
+}
